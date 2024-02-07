@@ -16,8 +16,8 @@ function generateDeck() {
     let deck = [];
     for (let suit of SUITS) {
         for (let value of VALUES) {
-            let color = (suit === "♥" || suit === "♦") ? "red" : "black";
-            deck.push(new Card(value, suit, color));
+            let colour = (suit === "♥" || suit === "♦") ? "red" : "black";
+            deck.push(new Card(value, suit, colour));
         }
     }
     deck.push(new Card("Joker", "🃏", "black"));
@@ -27,10 +27,10 @@ function generateDeck() {
 }
 
 class Card {
-    constructor(value, suit, color) {
+    constructor(value, suit, colour) {
         this.value = value;
         this.suit = suit;
-        this.color = color;
+        this.colour = colour;
     }
 }
 
