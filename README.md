@@ -12,8 +12,7 @@ Turn-based gameplay
 
 ## Installation
 Clone the repository:
-```git clone <repository-url>```
-Open the index.html file in your web browser.
+- ```git clone git@github.com:NateNM/Card-Memory-Game.git```
 
 ## How to Play
 Open the game in your web browser.
@@ -29,5 +28,5 @@ Continue until all pairs are matched or quit the game using the quit button.
 - HTML
 - CSS (SCSS)
 
-License
+### License
 This project is licensed under the MIT License.
